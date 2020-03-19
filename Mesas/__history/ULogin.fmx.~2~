@@ -1,0 +1,73 @@
+object frmTelaDeLogin: TfrmTelaDeLogin
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  Position = DesktopCenter
+  SystemStatusBar.BackgroundColor = x00FFFFFF
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF31AFB4
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF217792
+        Offset = 0.509316742420196500
+      end
+      item
+        Color = xFF115571
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = Gradient
+    Stroke.Gradient.Points = <
+      item
+        Color = xFF31AFB4
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF225F91
+        Offset = 0.487577646970748900
+      end
+      item
+        Color = xFF115571
+        Offset = 1.000000000000000000
+      end>
+    Stroke.Gradient.StartPosition.X = 0.500000000000000000
+    Stroke.Gradient.StartPosition.Y = 1.000000000000000000
+    Stroke.Gradient.StopPosition.X = 0.499999970197677600
+    Stroke.Gradient.StopPosition.Y = 0.000000000000000000
+    Stroke.Thickness = 0.000000000000000000
+  end
+  object LayoutFundo: TLayout
+    Align = Contents
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Position.X = 56.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 177.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

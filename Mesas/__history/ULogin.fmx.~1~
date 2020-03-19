@@ -1,0 +1,38 @@
+object frmTelaDeLogin: TfrmTelaDeLogin
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  Position = DesktopCenter
+  SystemStatusBar.BackgroundColor = x00FFFFFF
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFFD5DFDF
+        Offset = 0.006211180239915848
+      end
+      item
+        Color = xFF6E9DA0
+        Offset = 0.549689412117004400
+      end
+      item
+        Color = xFF1F0D4D
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.543744325637817400
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.456255644559860200
+    Fill.Gradient.StopPosition.Y = -0.000000004018637867
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+  end
+end
